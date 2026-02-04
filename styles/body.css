@@ -24,32 +24,25 @@
 
 .body-button {
     margin-top: auto;
-}
-
-.button {
-    width: 269px;
-    height: 66px;
-    background-color: 718EDE;
-    color: D7EEFF;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 52px;
-    border: none;
-    transition: background-color 0.25s ease;
+    display: flex;
 }
 
 .body-button a {
     text-decoration: none;
-    padding: 20px;
     background-color: #718EDE;
     border: 2px solid #718EDE;
-    margin-left: 15px;
-}
-
-.button:hover {
-    background-color: 292A2A;
-    border: 2px solid #718EDE;
-    cursor: pointer;
+    margin-right: 15px;
+    transition: background-color 0.25s ease;
+    border-radius: 52px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    width: 269px;
+    height: 66px;
+    background-color: 718EDE;
+    color: D7EEFF;
+    align-items: center;
+    justify-content: center;
 }
 
 .body-button a:hover {
